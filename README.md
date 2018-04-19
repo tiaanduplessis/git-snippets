@@ -34,6 +34,18 @@ git add .
 git commit -m "fix .gitignore"
 ```
 
+### Unstage a file
+
+```sh
+git reset HEAD FILENAME
+```
+
+### Undo local changes to file
+
+```sh
+git checkout -- FILENAME
+```
+
 ### Undo the last local commit
 
 To unstage changes
